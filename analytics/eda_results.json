@@ -1,0 +1,251 @@
+{
+  "missing_data": {
+    "customers": {
+      "total_missing": 0,
+      "columns_affected": 0
+    },
+    "transactions": {
+      "total_missing": 0,
+      "columns_affected": 0
+    },
+    "reviews": {
+      "total_missing": 0,
+      "columns_affected": 0
+    }
+  },
+  "outliers": {
+    "iqr_outliers": 0,
+    "zscore_outliers": 0,
+    "percentile_outliers": 500
+  },
+  "trends": {
+    "monthly_sales": [
+      {
+        "year_month": "2023-12",
+        "total_sales": 92987.12,
+        "transaction_count": 99,
+        "sales_growth": NaN
+      },
+      {
+        "year_month": "2024-01",
+        "total_sales": 1055504.59,
+        "transaction_count": 1057,
+        "sales_growth": 1035.1083784506932
+      },
+      {
+        "year_month": "2024-02",
+        "total_sales": 960950.35,
+        "transaction_count": 981,
+        "sales_growth": -8.958202635575475
+      },
+      {
+        "year_month": "2024-03",
+        "total_sales": 1047877.44,
+        "transaction_count": 1048,
+        "sales_growth": 9.045950188789664
+      },
+      {
+        "year_month": "2024-04",
+        "total_sales": 1086967.13,
+        "transaction_count": 1060,
+        "sales_growth": 3.730368505690884
+      },
+      {
+        "year_month": "2024-05",
+        "total_sales": 1044465.88,
+        "transaction_count": 1075,
+        "sales_growth": -3.9100768392140717
+      },
+      {
+        "year_month": "2024-06",
+        "total_sales": 1086288.38,
+        "transaction_count": 1062,
+        "sales_growth": 4.004199735083724
+      },
+      {
+        "year_month": "2024-07",
+        "total_sales": 1101386.6,
+        "transaction_count": 1108,
+        "sales_growth": 1.3898905924042193
+      },
+      {
+        "year_month": "2024-08",
+        "total_sales": 1064432.57,
+        "transaction_count": 1073,
+        "sales_growth": -3.3552278555050497
+      },
+      {
+        "year_month": "2024-09",
+        "total_sales": 1003911.56,
+        "transaction_count": 1011,
+        "sales_growth": -5.685753302343988
+      },
+      {
+        "year_month": "2024-10",
+        "total_sales": 1022744.28,
+        "transaction_count": 1027,
+        "sales_growth": 1.8759341709343458
+      },
+      {
+        "year_month": "2024-11",
+        "total_sales": 1105928.77,
+        "transaction_count": 1075,
+        "sales_growth": 8.133459323771518
+      },
+      {
+        "year_month": "2024-12",
+        "total_sales": 1037142.96,
+        "transaction_count": 1071,
+        "sales_growth": -6.219732397412903
+      },
+      {
+        "year_month": "2025-01",
+        "total_sales": 1042674.5,
+        "transaction_count": 1032,
+        "sales_growth": 0.5333440242413667
+      },
+      {
+        "year_month": "2025-02",
+        "total_sales": 940396.21,
+        "transaction_count": 947,
+        "sales_growth": -9.809225218416683
+      },
+      {
+        "year_month": "2025-03",
+        "total_sales": 1120726.66,
+        "transaction_count": 1077,
+        "sales_growth": 19.17600773827024
+      },
+      {
+        "year_month": "2025-04",
+        "total_sales": 1015091.57,
+        "transaction_count": 1012,
+        "sales_growth": -9.42558910840936
+      },
+      {
+        "year_month": "2025-05",
+        "total_sales": 1078574.46,
+        "transaction_count": 1063,
+        "sales_growth": 6.253907713961215
+      },
+      {
+        "year_month": "2025-06",
+        "total_sales": 995088.06,
+        "transaction_count": 1001,
+        "sales_growth": -7.740439171904734
+      },
+      {
+        "year_month": "2025-07",
+        "total_sales": 1019523.11,
+        "transaction_count": 1042,
+        "sales_growth": 2.4555665957844974
+      },
+      {
+        "year_month": "2025-08",
+        "total_sales": 999938.55,
+        "transaction_count": 1007,
+        "sales_growth": -1.9209530228304406
+      },
+      {
+        "year_month": "2025-09",
+        "total_sales": 1025976.9,
+        "transaction_count": 1032,
+        "sales_growth": 2.6039950154937097
+      },
+      {
+        "year_month": "2025-10",
+        "total_sales": 1047335.44,
+        "transaction_count": 1069,
+        "sales_growth": 2.0817759152277127
+      },
+      {
+        "year_month": "2025-11",
+        "total_sales": 1011758.54,
+        "transaction_count": 1031,
+        "sales_growth": -3.39689641362656
+      },
+      {
+        "year_month": "2025-12",
+        "total_sales": 927691.96,
+        "transaction_count": 940,
+        "sales_growth": -8.308956799119294
+      }
+    ],
+    "avg_monthly_sales": 997414.5436,
+    "avg_growth": 42.81923855024949
+  },
+  "correlations": {
+    "age": {
+      "age": 1.0,
+      "total_spent": -0.02837960428113451,
+      "avg_transaction": -0.023351520003020643,
+      "purchase_count": -0.012428348042807262
+    },
+    "total_spent": {
+      "age": -0.02837960428113451,
+      "total_spent": 1.0,
+      "avg_transaction": 0.431223910213402,
+      "purchase_count": 0.861727798476365
+    },
+    "avg_transaction": {
+      "age": -0.023351520003020643,
+      "total_spent": 0.431223910213402,
+      "avg_transaction": 1.0,
+      "purchase_count": -0.02096997922115919
+    },
+    "purchase_count": {
+      "age": -0.012428348042807262,
+      "total_spent": 0.861727798476365,
+      "avg_transaction": -0.02096997922115919,
+      "purchase_count": 1.0
+    }
+  },
+  "patterns": {
+    "top_categories": {
+      "Computing": 14581,
+      "Audio": 6193,
+      "Electronics": 2136,
+      "Video": 2090
+    },
+    "channel_performance": {
+      "('transaction_id', 'count')": {
+        "Mobile App": 8267,
+        "Online": 8391,
+        "Store": 8342
+      },
+      "('amount', 'sum')": {
+        "Mobile App": 8219362.33,
+        "Online": 8397460.77,
+        "Store": 8318540.49
+      },
+      "('amount', 'mean')": {
+        "Mobile App": 994.24,
+        "Online": 1000.77,
+        "Store": 997.19
+      }
+    },
+    "payment_methods": {
+      "PayPal": 6312,
+      "Cash": 6274,
+      "Debit Card": 6223,
+      "Credit Card": 6191
+    }
+  },
+  "winsorization": {
+    "original_mean": 997.4145436,
+    "winsorized_mean": 997.2908142,
+    "values_clipped": 2500
+  },
+  "sentiment": {
+    "distribution": {
+      "neutral": 523,
+      "negative": 493,
+      "positive": 484
+    },
+    "avg_rating_by_sentiment": {
+      "negative": 2.9066937119675456,
+      "neutral": 2.9464627151051626,
+      "positive": 2.9731404958677685
+    }
+  }
+}
